@@ -47,6 +47,8 @@ st.image("https://www.funciones.xyz/wp-content/uploads/2021/04/asintota-vertical
 st.video("https://www.youtube.com/watch?v=VziE5Yu5RW8&pp=ygUzZXhwbGljYWNpb24gZGUgYXNpbnRvdGFzIHZlcnRpY2FsZXMgeSBob3Jpem9udGFsZXMg")
 
 st.subheader("RETROALIMENTACIÓN")
+nombre = st.text_input("Digite su nombre:")
+st.markdown(f"su nombre es: {nombre}")
 
 st.caption("**1. ¿Qué es una asíntota?**")
 nombre = st.text_input("Digite su respuesta:")
@@ -81,3 +83,6 @@ st.markdown(f"respuesta: {nombre}")
 
 rango = st.slider("¿que puntución le das a mi página?:", min_value=0, max_value=100)
 st.markdown(f"el valor que ingresó es: {rango}")
+
+
+
