@@ -78,3 +78,6 @@ st.markdown(f"respuesta: {nombre}")
 st.caption("**10. ¿Qué es una asintota horizontal?**")
 nombre = st.text_input("¿que vas a responder?:")
 st.markdown(f"respuesta: {nombre}")
+
+rango = st.slider("¿que puntución le das a mi página?:", min_value=0, max_value=100)
+st.markdown(f"el valor que ingresó es: {rango}")
