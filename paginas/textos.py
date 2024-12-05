@@ -1,10 +1,6 @@
 import streamlit as st
 
 
-st.title("PRESENTACIÓN PERSONAL")
-st.caption("**Mi nombre es Cristian Felipe Sánchez Benavides, soy estudiante de matemáticas de la Universidad Industrial de Santander (UIS), me apasiona la matemática y la programación, y en este proyecto he combinado ambas pasiones para crear una herramienta de manera interactiva que ayude a los estudiantes a aprender sobre las asintotas. El objetivo de este proyecto es proporcionar una plataforma para que los estudiantes puedan explorar y aprender sobre las asintotas ed manera interactiva.**")
-
-
 st.title("ASINTOTAS")
 st.header("QUE ES UNA ASINTOTA?")
 st.caption("**Asíntota es un término originario ed grecia que hace referencia a algo que no tiene coincidencia. El concepto se utiliza en el ámbito de la geometría para nombrar a una recta que, a medida que se prolonga de manera indefinida, tiende a acercarse a una cierta curva o función, aunque sin alcanzar a hallarla.**")
@@ -46,43 +42,7 @@ st.caption("Las asíntotas son rectas a las cuales la función se va aproximando
 st.image("https://www.funciones.xyz/wp-content/uploads/2021/04/asintota-vertical.png")
 st.video("https://www.youtube.com/watch?v=VziE5Yu5RW8&pp=ygUzZXhwbGljYWNpb24gZGUgYXNpbnRvdGFzIHZlcnRpY2FsZXMgeSBob3Jpem9udGFsZXMg")
 
-st.subheader("RETROALIMENTACIÓN")
-nombre = st.text_input("Digite su nombre:")
-st.markdown(f"su nombre es: {nombre}")
 
-st.caption("**1. ¿Qué es una asíntota?**")
-nombre = st.text_input("Digite su respuesta:")
-st.markdown(f"respuesta: {nombre}")
-st.caption("**2. ¿Cuáles son los tipos principales de asíntotas**")
-nombre = st.text_input("La respuesta indicada es:")
-st.markdown(f"respuesta: {nombre}")
-st.caption("**3. ¿Cómo se define una asíntota horizontal?**")
-nombre = st.text_input("La solución es:")
-st.markdown(f"respuesta: {nombre}")
-st.caption("**4. ¿Qué es una asíntota vertical y cómo se encuentra?**")
-nombre = st.text_input("La información que solicita es:")
-st.markdown(f"respuesta: {nombre}")
-st.caption("**5. ¿Cómo se determina si una función tiene una asíntota horizontal?**")
-nombre = st.text_input("El dato solicitado es:")
-st.markdown(f"respuesta: {nombre}")
-st.caption("**6. ¿Qué diferencia hay entre una asíntota horizontal y una vertical?**")
-nombre = st.text_input("la respuesta es:")
-st.markdown(f"respuesta: {nombre}")
-st.caption("**7. ¿Una función puede tener más de una asíntota horizontal?**")
-nombre = st.text_input("digite la información:")
-st.markdown(f"respuesta: {nombre}")
-st.caption("**8. ¿Cómo se identifican las asíntotas de una función en su gráfica?**")
-nombre = st.text_input("Digita la información solicitda:")
-st.markdown(f"respuesta: {nombre}")
-st.caption("**9. ¿Una asíntota siempre se toca?**")
-nombre = st.text_input("¿cual es tu respuesta?:")
-st.markdown(f"respuesta: {nombre}")
-st.caption("**10. ¿Qué es una asintota horizontal?**")
-nombre = st.text_input("¿que vas a responder?:")
-st.markdown(f"respuesta: {nombre}")
-
-rango = st.slider("¿que puntución le das a mi página?:", min_value=0, max_value=100)
-st.markdown(f"el valor que ingresó es: {rango}")
 
 
 
