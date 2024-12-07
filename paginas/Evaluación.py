@@ -19,7 +19,7 @@ if respuesta_1:
     if "línea" in respuesta_1.lower() and "recta" in respuesta_1.lower():
         st.success("¡Correcto! Una asíntota es una recta a la que se acerca la gráfica de una función.")
     else:
-        st.error("¡Incorrecto! Una asíntota es una línea recta que describe el comportamiento de la función a medida que \( x \to \infty \) o \( x \to -\infty \).")
+        st.error("¡Incorrecto! Una asíntota es una línea recta que describe el comportamiento de la función a medida que (x tiende a infinito) o (x tiende a -infinito)")
 
 # Pregunta 2: Tipos principales de asíntotas
 st.caption("**2. ¿Cuáles son los tipos principales de asíntotas?**")
@@ -39,9 +39,9 @@ if respuesta_3:
     st.markdown(f"Su respuesta fue: {respuesta_3}")
     # Retroalimentación
     if "línea" in respuesta_3.lower() and "y = L" in respuesta_3.lower():
-        st.success("¡Correcto! Una asíntota horizontal es una recta \( y = L \) a la que se aproxima la gráfica de la función cuando \( x \to \infty \).")
+        st.success("¡Correcto! Una asíntota horizontal es una recta \( y = L \) a la que se aproxima la gráfica de la función cuando (x tiende a infinito).")
     else:
-        st.error("¡Incorrecto! Una asíntota horizontal es una recta a la que la gráfica de una función se aproxima cuando \( x \to \infty \) o \( x \to -\infty \).")
+        st.error("¡Incorrecto! Una asíntota horizontal es una recta a la que la gráfica de una función se aproxima cuando (x tiende a infinito) o (x tiende a -infinito) .")
 
 # Pregunta 4: ¿Qué es una asíntota vertical y cómo se encuentra?
 st.caption("**4. ¿Qué es una asíntota vertical y cómo se encuentra?**")
